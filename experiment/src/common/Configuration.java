@@ -17,6 +17,13 @@ public class Configuration {
 	private String linkDataFold;
 	private String KnowledgeDataFold;
 	
+	/**
+	 * Constructor without no parameter;
+	 */
+	public Configuration(){
+		
+	}
+	
 	/***
 	 * 构造函数，初始化配置文件路径，以及各数据所在文件夹路径
 	 * @param filePath
